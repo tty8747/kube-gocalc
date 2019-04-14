@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gocalc-pod
+  labels:
+    app: gocalc-tty8747
+spec:
+  containers:
+  - name: gocalc
+    image: tty8747/goapp:v1.23
