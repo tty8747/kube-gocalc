@@ -8,3 +8,5 @@ spec:
   containers:
   - name: gocalc
     image: tty8747/goapp:v1.23
+  - name: nginx
+    image: nginx:alpine
