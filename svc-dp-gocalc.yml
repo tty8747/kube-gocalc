@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: gocalc-svc
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: gocalc
   ports:
