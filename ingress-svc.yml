@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: gocalc-ingress
+spec:
+  rules:
+  - host: gocalc.aaaj.ru
+    http:
+      paths:
+      - backend:
+          serviceName: gocalc-svc
+          servicePort: 8080
+  
